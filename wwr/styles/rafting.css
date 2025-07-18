@@ -45,7 +45,7 @@ header, main, footer {
 h1, h2, h3 {
     font-family: var(--heading-font);
     color: var(--accent2color);
-    font-weight: 300;
+    font-weight: 100;
     font-size: 2rem;
 }
 nav, p, section, article {
