@@ -10,13 +10,12 @@
 header {
     color: var(--accent2color);
     font-family: "Yrsa Light";
-    font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
 
 }
 body {
-    background-color: fff;
+    background-color: #fff;
     margin: 0;
     padding: 0;
 }
@@ -32,7 +31,7 @@ body{
 }
 
 body img {
-    width: 300apx;
+    width: 300px;
     height: auto;
     display: block;
     margin: 20px auto;
@@ -87,12 +86,12 @@ nav, p, section, article {
     border: 2px #fff;
     display: center;
     justify-content: space-between;
-    align-items: center;
-}
+   
+    }
 .hero article p {
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.1 rem;
+    font-size: 1.1rem;
     color:#344E41
 }
 .hero img {
