@@ -28,6 +28,8 @@ body {
 body{
     font-family: var(--body-font);
     color: var(--accent1-color);
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 body img {
@@ -40,10 +42,11 @@ header, main, footer {
     width: 840px;
     margin: 0 auto;
 }
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--heading-font);
     color: var(--accent2color);
-    font-weight: 400;
+    font-weight: 300;
+    font-size: 2rem;
 }
 nav, p, section, article {
     margin: 16px;
@@ -67,7 +70,7 @@ nav, p, section, article {
     top: 30px;
     left: 0;
     right: 0;
-    font-size: 3.5em;
+    font-size: 3.5rem;
     font-weight: lighter;
     text-shadow: 1px 1px 3px #344E41;
     text-align: center;
@@ -91,7 +94,7 @@ nav, p, section, article {
 .hero article p {
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     color:#344E41
 }
 .hero img {
