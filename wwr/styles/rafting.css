@@ -24,7 +24,7 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    gap: 1.5 rem;
+    gap: 1.5rem;
     padding: 0;
     margin: 0;
 }
@@ -90,7 +90,7 @@ h2 {
 
 .history-content {
     display: grid;
-    grid-template-columns: 1fr 1 fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
     align-items: center;
 }
