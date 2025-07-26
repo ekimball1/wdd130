@@ -1,135 +1,148 @@
-:root {
-    --primary-color: #dad7cd;
-    --secondary-color: #A3B18A;
-    --accent1-color: #588157;
-    --accent2color: #3A5A40;
-    --heading-font: "Yrsa Light 300";
-    --body-font: "Yrsa regular 500";
+body {
+    font-family: 'Yrsa, serif';
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    background-color: #dad7cd;
+    
 }
 
 header {
-    color: var(--accent2color);
-    font-family: "Yrsa Light";
-    font-weight: 100;
-    font-style: normal;
-
+    background-color: #a3b18a;
+    padding: 1rem;
+    font-weight: 300;
 }
-body {
-    background-color: #fff;
-    margin: 0;
+
+.header-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 1.5 rem;
     padding: 0;
-}
-* {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
-body{
-    font-family: var(--body-font);
-    color: var(--accent1-color);
-    font-size: 1rem;
-    font-weight: 400;
-}
-
-body img {
-    width: 300px;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-}
-header, main, footer {
-    width: 840px;
-    margin: 0 auto;
-}
-h1, h2 {
-    font-family: 'Open Sans', sans-serif;
-    color: var(--accent2color);
-    font-weight: 100;
-    font-size: 2rem;
-}
-nav, p, section, article {
-    margin: 16px;
-    padding: 8px;
-}
-.socialmedia a {
+nav a {
+    margin-left: 1.5rem;
     text-decoration: none;
+    color: #3a5a3a;
+    font-weight: bold;
     
 }
+
 .hero {
     position: relative;
-    margin-bottom: 40px;
-    text-align: center;
-}
-.hero h1 {
-    position: absolute;
-    top: 30px;
-    left: 0;
-    right: 0;
-    font-size: 3.5rem;
-    font-weight: lighter;
-    text-shadow: 1px 1px 3px #344E41;
-    text-align: center;
 }
 
-.hero article {
-    position: absolute;
-    bottom: 90px;
-    left: 50%;
-    transform: translatex(-50%);
-    background-color: #dad7cd;
-    color: #344E41;
-    padding: 1rem;
-    width: 80%;
-    max-width: 600px;
-    border: 2px #fff;
-    justify-content: space-between;
-   
-    }
-.hero article p {
-    text-align: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1rem;
-    color:#344E41
-}
 .hero img {
+    width: 60%;
     display: block;
+    margin: 0 auto;
+   }
+
+.hero-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #a3b18a;
+    padding: 2rem;
+    max-width: 700px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.hero-text article {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+
+.hero-text article img {
+    width: 175px;
+    height: auto;
+}
+h1, h2 {
+    font-family: 'Yrsa', serif;
+    color: #3a5a3a;
+    font-weight: 650;
+    margin-bottom: 1rem;
+    
+}
+h2 {
+    font-size: 1.8rem;
+}
+.history {
+    padding: 2rem;
+    font-weight: 100;
+    text-align: center;
+    
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr 1 fr 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.history-content img {
+    background-color: #dad7cd;
+    padding: 2rem;
     width: 100%;
     height: auto;
 }
-h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
+.adventure-section h2 {
     text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.adventure-section {
+    padding: 2rem;
+    font-weight: 100;
+    align-items: center;
 }
 
-.hero article img {
-    float: right;
-    width: 125px;
-}
-body > footer .social-media img {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    margin: 0 10px;
-    vertical-align: middle;
-    
-}
-footer .social-media {
-    text-align: center;
-    margin: 20px 0;
-}
-footer p {
+.adventure-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
     text-align: center;
 }
-.caption {
+
+.adventure-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #a3b18a;
+    padding: 1rem; 
     text-align: center;
-    margin: 10px 20px;
-    font-size: 1em;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.footer-social-media {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-social-media img {
+    width: 35px;
+    height: auto;
 }
