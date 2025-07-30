@@ -1,0 +1,94 @@
+body {
+    font-family: "Anaheim", sans-serif;
+    font-size: 1.5em;
+    color: cornflowerblue;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 700;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 2rem;
+    color: lightskyblue;
+    text-align: center;
+}
+
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1)
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color:cornflowerblue;
+    font-size: 1rem;
+}
+label, input, button, select, text area {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+label {
+    text-align: right;
+    padding: 0.5rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button {
+    margin: 1rem;
+    background-color: aliceblue;
+    color: black
+    border: none;
+    border-radius: .25rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+button:hover {
+    background-color: lightpink;
+}
+footer {
+    margin: 1rem;
+    width: 500;
+    text-align: center;
+    font-size: 0.8em;
+    color: cornflowerblue;
+    border-top: 1px solid #ccc;
+}
+.form-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
