@@ -10,7 +10,7 @@ body {
 header {
     background-color: #a3b18a;
     padding: 1rem;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .header-container {
@@ -42,9 +42,10 @@ nav a {
 }
 
 .hero img {
-    width: 60%;
+    width: 50%;
     display: block;
     margin: 0 auto;
+    padding: 3rem;
    }
 
 .hero-text {
@@ -61,14 +62,14 @@ nav a {
 
 .hero-text article {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     align-items: center;
     margin-top: 1rem;
     
 }
 
 .hero-text article img {
-    width: 175px;
+    width: 200px;
     height: auto;
 }
 h1, h2 {
@@ -79,7 +80,7 @@ h1, h2 {
     
 }
 h2 {
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 .history {
     padding: 2rem;
@@ -89,8 +90,8 @@ h2 {
 }
 
 .history-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    grid-template-columns: 2fr 2fr 2fr;
     gap: 2rem;
     align-items: center;
 }

@@ -1,0 +1,247 @@
+body {
+    font-family: 'Yrsa, serif';
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    background-color: #dad7cd;
+    
+}
+
+header {
+    background-color: #a3b18a;
+    padding: 1rem;
+    font-weight: 400;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 1.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: #3a5a3a;
+    font-weight: bold;
+    
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.hero img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    padding: 3rem;
+   }
+
+.hero-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #a3b18a;
+    padding: 2rem;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.hero-text article {
+    display: flexbox;
+    gap: 3rem;
+    align-items: center;
+    margin-top: 1rem;
+    color:black;
+    
+}
+
+.hero-text article img {
+    width: 100px;
+    height: auto;
+}
+h1, h2 {
+    font-family: 'Yrsa', serif;
+    color: #3a5a3a;
+    font-weight: 650;
+    margin-bottom: 1rem;
+    
+}
+h2 {
+    font-size: 2rem;
+}
+.contact-us-section {
+    padding: 2rem;
+    font-weight: 100;
+    text-align: center;
+    
+}
+
+.contact-us-content {
+    display: flex;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.contact-us-content img {
+    background-color: #dad7cd;
+    padding: 2rem;
+    width: 100%;
+    height: auto;
+}
+.employee-profiles-section h2 {
+    text-align: center;
+}
+.employee-content {
+    padding: 2rem;
+    font-weight: 100;
+    align-items: center;
+}
+
+.employee-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    text-align: center;
+}
+
+.employee-content img {
+    width: 30%;
+    height: auto;
+    border-radius: 3px;
+}
+
+footer {
+    background-color: #a3b18a;
+    padding: 1rem; 
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.footer-social-media {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-social-media img {
+    width: 35px;
+    height: auto;
+}
+form {
+    width: 700px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #a3b18a;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: black;
+    font-size: 1.2rem;
+}
+label, input, button, select, textarea {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+label {
+    text-align: right;
+    padding: 0.5rem;
+}
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button {
+    margin: 1rem;
+    background-color: #dad7cd;
+    color: black;
+    border: none;
+    border-radius: .25rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+button:hover {
+    background-color: #3a5a3a;
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.radio-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 0;
+}
+.radio-item label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+
+}
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+.map {
+    max-width: 100%;
+    margin: .5rem auto;
+    text-align: center;
+}
+.map iframe {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    border: 0;
+    margin: 0 auto;
+}
