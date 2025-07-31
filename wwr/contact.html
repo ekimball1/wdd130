@@ -69,23 +69,25 @@
 
       <fieldset>
         <legend>Questions</legend>
-        <div class="form-item radio-group">
+        <div class="form-item">
           <label for="inquiry">Purpose of message:</label>
+          <div class="radio-options">
           <label>
-            <input type="radio" name="inquiry" value="general" required>
+            <input type="radio" name="inquiry" id="general" required>
             General inquiry
           </label>  
 
           <label>
-            <input type="radio" name="inquiry" value="reservation">
+            <input type="radio" name="inquiry" id="reservation">
             Reservation Question
         </label>
 
         <label>
-          <input type="radio" name="inquiry" value="website">
+          <input type="radio" name="inquiry" id="website">
           Website Suggestion
         </label>
-       </div>
+        </div>
+      </div>
 
         <div class="form-item">
           <label for="feedback">Message:</label>
