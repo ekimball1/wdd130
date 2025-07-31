@@ -69,22 +69,31 @@
 
       <fieldset>
         <legend>Questions</legend>
-        <div class="form-item">
+        <div class="form-item radio-group">
           <label for="inquiry">Purpose of message:</label>
-          <select id="inquiry" name="inquiry">
-            <option value="General inquiry">General inquiry</option>
-            <option value="Reservation question">Reservation question</option>
-            <option value="Wesbite suggestion">Website suggestion</option>
-          </select>
-        </div>
+          <label>
+            <input type="radio" name="inquiry" value="general" required>
+            General inquiry
+          </label>  
+
+          <label>
+            <input type="radio" name="inquiry" value="reservation">
+            Reservation Question
+        </label>
+
+        <label>
+          <input type="radio" name="inquiry" value="website">
+          Website Suggestion
+        </label>
+       </div>
 
         <div class="form-item">
           <label for="feedback">Message:</label>
           <textarea id="feedback" name="feedback" rows="4"></textarea>
         </div>
-        <div class="form-item radio-item">
+        <div class="form-item subscribe-item">
           <label for="subscribe">
-            <input type="radio" id="subscribe" name="subscribe" value="yes">
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
             Please subscribe me to the monthly newsletter.
           </label>
          </div>

@@ -162,12 +162,15 @@ form {
     display: grid;
 }
 
-fieldset {
-    display: grid;
-    grid-gap: .5rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
+.form-item label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.25rem;
+}
+.form-item p {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0.5rem;
 }
 
 legend {
@@ -212,19 +215,18 @@ button:hover {
     align-items: center;
     margin-bottom: 1rem;
 }
-.radio-item {
+.subscribe-item {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-left: 0;
+    text-align: left;
 }
-.radio-item label {
+.subscribe-item label {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    white-space: nowrap;
+    font-weight: normal;
 }
-
 .column1 {
     grid-template-columns: 3fr 1fr;
     margin: 0.5rem 0;
@@ -244,4 +246,23 @@ button:hover {
     height: 200px;
     border: 0;
     margin: 0 auto;
+}
+.radio-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 1rem;
+    align-items: center;
+}
+.radio-group p {
+    grid-template-columns: 1 / -1;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0.5rem;
+
+}
+.radio-group label {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 0.5rem;
 }
